@@ -8,11 +8,14 @@
 body {
   background: #f5f3f2;
   font-family: 'Arial', sans-serif;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 20px;
+  flex-direction: column;
   transition: background-color 0.3s, color 0.3s;
+  position: relative;
 }
 
 .profile-container {
